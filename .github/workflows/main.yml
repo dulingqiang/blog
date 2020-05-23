@@ -18,7 +18,7 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - name: checkout # 步骤的名称
-    uses: actions/checkout@master #软件市场的名称      
+    uses: actions/checkout@v2.1.1 #软件市场的名称    
     - name: Hugo setup
     uses: peaceiris/actions-hugo@v2.4.11
     with:
